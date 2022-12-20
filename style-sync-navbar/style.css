@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/*LAYOUT*/
+nav ul {
+  display: flex;
+  background-color: #ddd;
+}
+nav li {
+  padding: 1em;
+  color: black;
+}
+/*2.inheritance*/
+nav a {
+  color: inherit;
+}
+
+nav li:hover {
+  background-color: black;
+  color: white;
+}
+/*1. multiple selectors*/
+/*flex items*/
+/*nav li {
+  
+  padding: 1em;
+}*/
+/*nav a {
+  color: black;
+}*/
+
+/*HOVER + SYNC
+  1.multiple selectors
+ */
+/*nav li:hover {
+  background-color: black;
+  color: white;
+}
+nav li:hover a {
+  color: white;
+}*/
